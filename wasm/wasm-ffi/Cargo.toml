@@ -1,0 +1,11 @@
+[package]
+name = "wasm-ffi"
+version = "0.1.0"
+authors = ["Radu M <root@radu.sh>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.dev]
+opt-level = 2
