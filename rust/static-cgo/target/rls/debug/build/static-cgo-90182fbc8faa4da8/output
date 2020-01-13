@@ -1,0 +1,3 @@
+cargo:rustc-link-search=native=./target
+cargo:rustc-link-lib=static=wasm2oci
+cargo:rustc-flags=-l framework=CoreFoundation -l framework=Security
